@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yolo Taxi - Milton Keynes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #ffcc00;
+      color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #ffcc00;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .section h2 {
+      color: #ffcc00;
+    }
+    .contact, .booking {
+      background-color: #111;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yolo Taxi</h1>
+    <p>Reliable Airport & Local Rides in Milton Keynes – 24/7 Service</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Welcome to Yolo Taxi – your local private hire company in Milton Keynes. We specialize in reliable, on-time airport transfers and local rides. Open 24/7, we're here to get you where you need to go, safely and affordably.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Airport Transfers (Heathrow, Luton, Gatwick, Stansted)</li>
+      <li>Local Rides in and around Milton Keynes</li>
+      <li>Business and Executive Travel</li>
+      <li>Pre-booked 24/7 Service</li>
+    </ul>
+  </section>
+
+  <section id="booking" class="section booking">
+    <h2>Book a Ride</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Pickup address, drop-off location, time/date..." rows="4" required></textarea>
+      <input type="submit" value="Submit Booking Request" />
+    </form>
+    <p style="text-align:center; margin-top: 10px;">Or call us directly: <strong>07912 844 610</strong></p>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:yolotaxi17@gmail.com" style="color: #ffcc00;">yolotaxi17@gmail.com</a></p>
+    <p>Phone: <a href="tel:07912844610" style="color: #ffcc00;">07912 844 610</a></p>
+    <p>Milton Keynes – Available 24/7</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Yolo Taxi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
